@@ -16,8 +16,8 @@ body{
     background-color: white;
     padding: 2rem;
     border-radius: 1rem;
-    min-height: 65vh;
-    min-width: 50vh;
+    width: 90%;
+    max-width: 50vh;
 }
 
 form{
@@ -32,7 +32,7 @@ form select,button,input{
 }
 
 form input{
-    border: 1px solid  lightgray;
+    border: 2px solid  rgb(31, 31, 112);
     font-size: 1rem;
     height: 3rem;
     padding-left: 0.5rem;
@@ -69,8 +69,12 @@ form input{
     width: auto;
 }
 
-.msg{
-    margin: 2rem   0;
+.massage{
+    margin: 1.5rem   0;
+    text-align: center;
+    padding: 8px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.1);
 }
 
 form button{
@@ -80,8 +84,13 @@ form button{
     font-size: 1.1rem;
     font-weight: 600;
     cursor: pointer;
+    margin-top: 1em;
 }
 
 form button:hover{
     background-color: rgb(128, 62, 113);
+}
+
+span{
+    color: #ec0b1e;
 }
